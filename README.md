@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @irenenjoki
 - 👀 I’m interested in Web Development
-- 🌱 I’m currently learning Information Technology
-- 📫 How to reach me phone email
+- 🌱 I’m currently learning Information Technology💻
+- 📫 How to reach me📧,📱
 
 <!---
 irenenjoki/irenenjoki is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
