@@ -7,3 +7,36 @@ a:hover{
 body{
     background-color: greenyellow;
 }
+body{
+    -ms-flex-item-align: end;
+}
+body{
+    padding-right: 20px;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card {
+    width: 300px;
+    min-height: 300px;
+    margin: 0.5rem;
+  }
+  
+  .b {
+    border: 1px solid #060613;
+  }
+  form-control {
+    outline: none;
+    width: 100%;
+    border-color: transparent;
+    min-height: 2rem;
+    font-size: 1.5rem;
+  }
+  p{
+      font-family: verdana;
+
+  }
+
+  
