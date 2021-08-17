@@ -8,7 +8,7 @@ body{
     background-color: greenyellow;
 }
 body{
-    -ms-flex-item-align: end;
+    -ms-flex-item-align: center;
 }
 body{
     padding-right: 20px;
@@ -22,6 +22,11 @@ body{
     width: 300px;
     min-height: 300px;
     margin: 0.5rem;
+    border-radius: 25px;
+    border:2px solidcolor;
+    padding:20px;
+    width:200px;
+    height:150px;
   }
   
   .b {
@@ -39,4 +44,10 @@ body{
 
   }
 
-  
+ /*#corners {
+    border-radius: 25px;
+    border:2px solidcolor;
+    padding:20px;
+    width:200px;
+    height:150px;
+  }
