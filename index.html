@@ -1,142 +1,337 @@
-<!--/////////////////////////////////
- / article:portfolio home page       /                                                      
- / author: irene waweru              /
- / date:   16-06-2021                /
- / licence:MIT                       /                        
- / /////////////////////////////////-->                                          
-
-
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head font-size; 1.2em;>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IRENE</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRENE - Portfolio</title>
+  <link rel="shortcut icon" href="image\32px-Circle-information.svg.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: greenyellow;">
-  <style>
-    a:hover {
-      background-color: powderblue;
-    }
-    a:hover{
-    color: red;
-}
-body{
-    -ms-flex-item-align: center;
-}
-body{
-    padding-right: 250px;
-}
 
-body{
-    padding-right: 750px;
-}
-.cards-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.card {
-  min-width: 200px;
-  min-height: 500px;
-  margin: 7rem;
-  border-radius: 25px;
-    border:2px solidcolor;
-    padding:20px;
-    width:600px;
-    height:150px;
-}
-
-.b {
-  border: 1px solid #060613;
-}
-form-control {
-  outline: none;
-  width: 100%;
-  border-color: transparent;
-  min-height: 2rem;
-  font-size: 1.5rem;
-} p1{
-      font-family: verdana;
-
-  }
- 
- 
-   </style>
+<body>
   <script src="https://kit.fontawesome.com/d89edf4aa2.js" crossorigin="anonymous"></script>
-</body>
 
- 
-  <div class="container"></div>
-    <!--navigation bar section -->
-  <nav class="navbar">
-   <h1>A Short Story About Irene</h1>
-   
+  <!-- Scroll Top Button -->
+  <div class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+    </svg>
+  </div>
+  <!-- Navigation -->
+  <section id="navigation">
+    <div class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+  </section>
+  <div id="nav-content">
+    <div class="close-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <h2 class="section-heading">Menu</h2>
+      <nav>
+        <ul>
+          <li><a data-text="Home" href="./index.html#hero">Home</a></li>
+          <li><a data-text="About" href="./index.html#about">About</a></li>
+          <li><a data-text="Projects" href="./index.html#projects">Projects</a></li>
+          <li><a data-text="Testimonial" href="./index.html#testimonial">Testimonial</a></li>
+          <li><a data-text="Contact" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 
-     <a href="index.html" class="nav-link"><i class="far fa-address-book"></i> index</a>
-      <a href="project.html" class="nav-link"><i class="fas fa-tasks"></i> projects</a>
-     <a href="servies.html" class="nav-link"><i class="fas fa-cogs"></i> services</a>
-     <a href="about.html" class="nav-link"><i class="fas fa-address-card"></i> about</a>
-     <a href="blog.html" class="nav-link"><i class="fas fa-blog"></i>blog</a>
-     <a href="contact.html" class="nav-link"><i class="fas fa-envelope-open-text"></i> contact</a>
-    <a href="https://rxresu.me/app/builder/kcr9jl"><i class="fas fa-file"></i>resume</a>
-  </nav>
-<header>
-  
+  <!-- Hero section -->
+  <section id="hero">
+    <div class="container">
+      <div class="left">
+        <p class="subheading">I'm IRENE</p>
+        <h2 class="heading">
+          <div class="wrapper"><span>Pixels</span></div>
+          <div class="wrapper"><span>with</span></div>
+          <div class="wrapper"><span>purpose</span></div>
+        </h2>
+        <p class="desc">I work with companies and agencies around the world, building Web sites and application UIs with
+          strong focus on
+          responsive design, accessibility, performance,</p>
+        <div class="buttons">
+          <a href="#projects" class="primary-btn">See My Works</a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="image\Screenshot_20220514-130705_Gallery.jpg" alt="">
+      </div>
+    </div>
+  </section>
 
-    <!--jumbotron section-->   
-<img style="float:right"src=https://o.remove.bg/downloads/f7784ce2-2f88-4ede-86ef-b87a9985678c/20200602_150752-removebg-preview.png alt="" width="300" height="350" padding="100px">
-    <h1>Irene Waweru</h1>
-    
-<p  style="max-width: 35em;">I am a web developer with a passion of creating websites in order to aid in the technology
-        farm and make life easier and simpler. I create very many complex websites which is apparently very fun to do.</p>
-        <main class="container">
-          <section class="featured-projects" ></section>
-            <h2 class="text-center">Featured Projects </h2>
-            <div class="cards-container">
-              <div style="background-color:green"class="card b box-shadow"><img src="https://i.travelapi.com/hotels/25000000/24050000/24043900/24043818/1c1d65a3_z.jpg" alt="cabins" width="200" height="250"><a href="https://github.com/irenenjoki/firstprojects">my projects</a><br><br></div>
-              <div style="background-color:green" class="card b box-shadow"><img src="https://o.remove.bg/downloads/f7784ce2-2f88-4ede-86ef-b87a9985678c/20200602_150752-removebg-preview.png" alt="" width="200" height="250"><p1>I am a web developer with a passion of creating websites in order to aid in the technology
-                farm and make life easier and simpler. I create very many complex websites which is apparently very fun to do</p1></div>
-              <div style="background-color:green" class="card b box-shadow"><h1><b>AAR Roysambu</b></h1><img src="https://lh3.googleusercontent.com/p/AF1QipNT50LQsCRE_fbUX2w5hKLInWJ782Dcdb4lvPG2=s1600-w400" alt="AAR Roysambu"width="200"height="200">Our Roysambu Outpatient Centre is called to cAARe for the well being of your little ones. May be an image of 2 people and people smiling. AAR Healthcare.Folow the link below to learn more about the healthcare.<br><a href="AAR.html">AAR</a><br><br></div>
+  <!-- services Section -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Services">Services</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">Web Design</h3>
+          <p class="item-desc">I build up the high performance website with blazing fast speed. Website with high
+            performance can lead the visitor more. </p>
+        </div>
+        
+         
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section 
+  <section id="testimonial">
+    <div class="container">
+      <h1 class="section-heading" data-outline="Testimonial">Testimonial</h1>
+      <div class="all-items">
+        <div class="item">
+          <div class="img">
+            <img src="" alt="">
+          </div>
+          <h3 class="testimonial-heading"></h3>
+          <p class="testimonial-sub-heading"></p>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+          </div>
+          <p class="testimonial-desc"> </p>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="" alt="">
+          </div>
+          <h3 class="testimonial-heading"></h3>
+          <p class="testimonial-sub-heading"></p>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+          </div>
+          <p class="testimonial-desc"></p>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="" alt="">
+          </div>
+          <h3 class="testimonial-heading"></h3>
+          <p class="testimonial-sub-heading"></p>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+          </div>
+          <p class="testimonial-desc"></p>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+  <!-- stats Section -->
+  <section id="stats">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Stats">Stats</h2>
+      <div class="all-items">
+        <div class="item">
+          <h2 class="number">3</h2>
+          <h3 class="stats-sub-heading">Projects done</h3>
+          <p>I worked on a few projects projects. 
+            I know how to make things fascinating and eye-catching. 
+            Making high performance website is always a sign of mine.</p>
+        </div>
+       
+        <div class="item">
+          <h2 class="number">1</h2>
+          <h3 class="stats-sub-heading">Years experience</h3>
+          <p>Mostly for now i make personal websites since i just completed school.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END Stats Section -->
+
+
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-heading" data-outline="about">About</h2>
+      <div class="wrapper">
+        <div class="left">
+          <div class="card">
+            <div class="img">
+              <img src="image\Screenshot_20220514-130705_Gallery.jpg" alt="">
             </div>
-          </section>
-          <section class="testimonials ">
-            <h2 class="text-center">Testimonials</h2>
-            <div class="cards-container">
-              <div style="background-color: green;"class="card b box-shadow"><b>Video Testimonials</b><img src="https://img.favpng.com/22/17/17/camera-icon-video-icon-png-favpng-9XnvrZaYTkbWyWi2cQnUKe85u.jpg"alt="testimonial" width="200" height="250"></i>Letting your clients speak their truth in a video is one of the most authentic opportunity for a testimonial.It is vissuallizing, attention grabbing and can keep your customers on your page for a long time.</div>
-              <div style="background-color: green;"class="card b box-shadow"><h1><b>Social Testimonials</b></h1><img style="float:left"src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-601425683.jpg"  alt="testimonial" width="50" height="50"padding="100px" ></i><br><br>
+            <p class="card-desc">I’m a freelance web designer and developer based in Nairobi. I love the Web platform
+              and I need to improve it for
+              everybody. What's more, I believe myself to be totally honored that I will assemble it professionally.</p>
+            <h3 class="card-name">IRENE Jr</h3>
+            <p class="card-sub-title">CEO of Me</p>
+          </div>
+        </div>
+        <div class="right">
+          <p class="subheading">Hi! This is IRENE</p>
+          <h2 class="slogan">Freelance Web Designer</h2>
+          <p class="right-text">
+          </p>
+          <div class="buttons">
+            <a href="./resume.txt" class="primary-btn" download="">Download Resume</a>
+            <a href="./contact.html" class="primary-btn outline">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                <img style="float:left" src="https://1000logos.net/wp-content/uploads/2017/02/New-Instagram-logo.jpg"  alt="testimonial" width="50" height="50" padding="100px"></i><br><br>
-                <img style="float:left"src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" alt="testimonial" width="50" height="50" padding="100px"></i><br><br>
-                <p>The greatest testimonials are the ones you dont ask for. And this is where social media testimonials come in, where customers volunteer to write about their experience with your company via insta,twitter or face book.</p> 
-              </div>
-          
-          </section>
-          <section class="faqs ">
-            <h2 class="text-center">Frequently asked Questions</h2>
-            <div class="cards-container">
-              <div style="background-color: green;"class="card b box-shadow"><h1><b>1.What types of businesses can you help?</b></h1>
-               <p> We are a great fit for businesses who provide a service for consumers, operate in a local or regional market and have less than 25 employees. We can also be a good fit for some B2B businesses, depending on the marketing goals.</p>
-              <h1><b>2.How long does it take to build a website?</b></h1>
-               <p> On average, websites launch within 4 to 6 weeks from project start. If you are trying to meet a specific deadline, let us know and we can provide you with options.</p></div>
-               <div style="background-color: green;"class="card b box-shadow"<h1><b>3.Which areas do you operate in?</b></h1>
-               <p> We help clients who are located in the United States whose customers are also within the United States. While we would love to help businesses in other countries, we've found the timezone and marketing differences make us less effective.</p></div>
-             
-             
+  <!-- projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Projects">Projects</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/project-1.jpg" alt="">
             </div>
-          </section>
-<ul>
-    <a href="https://github.com/"><i class="fab fa-github"></i></a>
-    <a href="https://ke.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-    <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.whatsapp.com/?lang=en"><i class="fab fa-whatsapp"></i></a><br>
-    <a href="https://rxresu.me/app/builder/kcr9jl">resume</a><br>
+          </div>
+          <div class="right">
+            <h2 class="project-title"> personal projects</h2>
+            <h3 class="project-sub-title">these psersonal projects are in my github account</h3>
+            <p class="project-desc"></p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
 
-    <p>© all rights reserved 2021</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/project-3.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">Android movie app</h2>
+            <h3 class="project-sub-title">
+            </h3>
+            <p class="project-desc"></p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/project-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title">Eleanor Baby Clost</h2>
+            <h3 class="project-sub-title">A website forbaby clothes</h3>
+            <p class="project-desc"></p>
+            <div class="buttons">
+              <a href="#" class="primary-btn">Know More</a>
+              <a href="#" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+        <div class="col-1">
+          <div class="logo"><a href="#">
+            <img src="image\Screenshot_20220514-130705_Gallery.jpg" alt="">
+
+            </a></div>
+          <p>A freelance web designer and developer from Nairbi Kenya . I generally make websites that have
+            extraordinary
+            designs and also have a good performance rate. </p>
+        </div>
+        <div class="col-2">
+          <h2 class="column-heading">Important<br>Links</h2>
+          <ul>
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#Project">Project</a></li>
+            <li><a href="./index.html#testimonial">Testimonial</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h2 class="column-heading">Contact<br>Info</h2>
+          <ul>
+            <li><a href="#">irenewaweru9@gmail.com</a></li>
+            <li><a href="#">+254711791575</a></li>
+            <li><a href="#">Nairbi Kenya</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h2 class="column-heading">Social<br>Links</h2>
+          <ul>
+           <li><a href="https://github.com/"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://ke.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.whatsapp.com/?lang=en"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://rxresu.me/app/builder/kcr9jl">resume</a><br></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <section id="copyright">
+    <div class="container">
+      <p> &copy; Copyright 2022 IRENE. All right Reserved</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
 </body>
 
 </html>
