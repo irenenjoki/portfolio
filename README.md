@@ -1,4 +1,4 @@
-![Screenshot (117)](https://user-images.githubusercontent.com/85219856/175520629-b53f1534-189c-47b8-9135-b77dbe08e800.png)
+![Screenshot (23)](https://user-images.githubusercontent.com/85219856/219141153-2d54d827-6db7-4814-85f6-1f43e7b58fa0.png)
 # portfolio
 Config files for my GitHub profile.
 ### portfollio 👋
