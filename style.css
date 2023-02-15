@@ -2,7 +2,7 @@
 
 /* variables */
 :root {
-	--primary-color: #5924ed;
+	--primary-color: #065c3b;
 	--secondary-black: #0d081a;
 	--secondary-gray: #48464b;
 	--body-bg: #efebfa;
@@ -119,7 +119,7 @@ p {
 }
 .scroll-top svg {
 	width: 50%;
-	color: black;
+	color: rgb(6, 4, 122);
 	pointer-events: none;
 }
 
@@ -699,7 +699,7 @@ p {
 	overflow: hidden;
 	border-radius: 12px;
 	overflow: hidden;
-	box-shadow: 0px 0px 20px #4705fc33;
+	box-shadow: 0px 0px 20px #03316633;
 	position: relative;
 }
 #projects .item .left .img::after {
@@ -709,7 +709,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #5a24ed38;
+	background-color: #0b466d38;
 }
 #projects .item .left .img img {
 	object-fit: cover;
@@ -859,7 +859,7 @@ p {
 }
 #contact .right .form-group .input-wrapper {
 	background-color: white;
-	color: black;
+	color: rgb(2, 63, 15);
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -926,7 +926,7 @@ p {
 
 /* Footer Section */
 #footer {
-	background-color: #311580;
+	background-color: #15802c;
 	color: white;
 	padding: 10rem 0 5rem 0;
 }
@@ -941,7 +941,9 @@ p {
 }
 #footer footer .col-2,
 #footer footer .col-3,
-#footer footer .col-4 {
+#footer footer .col-4
+ {
+	
 	flex: 2;
 }
 #footer footer .col-4 {
@@ -1011,7 +1013,7 @@ p {
 /* copyright Section */
 #copyright {
 	padding: 1rem 0;
-	background-color: #221052;
+	background-color: #10521b;
 }
 #copyright p {
 	color: white;
