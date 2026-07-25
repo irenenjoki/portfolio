@@ -90,14 +90,18 @@ I look forward to hearing from you.</p>
         </div>
         <div class="right">
           <div class="form-wrapper">
-            <form action="#">
+            <form action="https://formsubmit.co/irenewaweru9@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New message from your portfolio site">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://irenenjoki.github.io/portfolio/contact.html">
               <div class="form-group">
                 <label for="name">Your Name</label>
                 <div class="input-wrapper">
                   <span class="icon">
                     <ion-icon name="person-outline"></ion-icon>
                   </span>
-                  <input type="text" id="name" name="name">
+                  <input type="text" id="name" name="name" required>
                 </div>
               </div>
               <div class="form-group">
@@ -106,13 +110,13 @@ I look forward to hearing from you.</p>
                   <span class="icon">
                     <ion-icon name="mail-outline"></ion-icon>
                   </span>
-                  <input type="text" id="email" name="email">
+                  <input type="email" id="email" name="email" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
 
-                <textarea type="text" id="message" name="message" width="100%"></textarea>
+                <textarea id="message" name="message" required></textarea>
 
               </div>
               <button type="submit">Send</button>
