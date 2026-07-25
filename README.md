@@ -1,11 +1,4 @@
-# Portfolio
-
-My personal portfolio showcasing my projects, skills, and experience.
-
-## Live Demo
-
-🌐 **Demo:** https://irenenjoki.github.io/portfolio/
-
-## Preview
-
-![Portfolio Screenshot](Screenshot%20(640).png)
+![Portfolio screenshot](Screenshot%20(640).png)
+# portfolio
+### portfollio 👋
+<a href="https://irenenjoki.github.io/portfolio/">Demo</a>
