@@ -395,16 +395,23 @@ p {
 	filter: blur(10px);
 	z-index: 0;
 }
-.hero-visual .visual-photo {
+.hero-visual .visual-card {
 	position: relative;
 	z-index: 1;
-	display: block;
 	height: 100%;
 	width: 100%;
+	border-radius: 20px;
+	background: linear-gradient(155deg, var(--primary-dark) 0%, var(--primary-color) 60%, #14895f 100%);
+	box-shadow: var(--shadow-strong);
+	overflow: hidden;
+	padding: 4px;
+}
+.hero-visual .visual-card img {
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	object-position: 50% 20%;
-	border-radius: 20px;
-	box-shadow: var(--shadow-strong);
+	border-radius: 14px;
 }
 
 .hero-visual .floating-badge {
