@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IRENE - Portfolio</title>
-  <link rel="shortcut icon" href="https://i.pinimg.com/474x/78/51/56/7851568bfd732804504330d3c2877da4.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230e6b4a'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial, sans-serif' font-weight='900' fill='white' text-anchor='middle'%3EI%3C/text%3E%3C/svg%3E" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -39,7 +39,7 @@
           <li><a data-text="Home" href="./index.html#hero">Home</a></li>
           <li><a data-text="About" href="./index.html#about">About</a></li>
           <li><a data-text="Projects" href="./index.html#projects">Projects</a></li>
-          <li><a data-text="Testimonial" href="./index.html#testimonial">Testimonial</a></li>
+          <li><a data-text="Skills" href="./index.html#skills">Skills</a></li>
           <li><a data-text="Contact" href="./contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -52,28 +52,26 @@
       <div class="left">
         <p class="subheading">I'm IRENE</p>
         <h2 class="heading">
-          <div class="wrapper"><span>Pixels</span></div>
-          <div class="wrapper"><span>with</span></div>
-          <div class="wrapper"><span>purpose</span></div>
+          <div class="wrapper"><span> Developer</span></div>
+          <div class="wrapper"><span> Designer</span></div>
+          <div class="wrapper"><span>Problem Solver.</span></div>
         </h2>
-        <p class="desc">I work with companies and agencies around the country, building Web sites and 
-          application UIs with
+        <p class="desc">I build modern, responsive web applications using React, TypeScript, Svelte, and Tailwind CSS. I focus on creating intuitive user experiences that are fast, accessible, and scalable
+           with
           strong focus on
-          responsive design, accessibility, performance,high maintenace</p>
+          responsive design, accessibility, performance, and long-term maintainability.</p>
         <div class="buttons">
           <a href="#projects" class="primary-btn">See My Works</a>
-          <a href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </a>
+          <a href="./contact.html" class="primary-btn outline">Let's Talk</a>
         </div>
       </div>
       <div class="right">
-        <img src="https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGVyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <img class="visual-photo" src="irene.jpg" alt="Irene Njoki">
+          <div class="floating-badge badge-top">13+ Projects</div>
+          <div class="floating-badge badge-bottom">3+ Years Experience</div>
+        </div>
       </div>
     </div>
   </section>
@@ -91,65 +89,75 @@
             </svg>
           </div>
           <h3 class="item-heading">Web Design</h3>
-          <p class="item-desc">I build up the high performance website with blazing fast speed. Website with high
-            performance can lead the visitor more. </p>
+          <p class="item-desc">I build high-performance websites with blazing fast speed. A fast site keeps
+            visitors around and converts more of them.</p>
         </div>
-        
-         
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">Frontend Development</h3>
+          <p class="item-desc">I turn designs into clean, maintainable HTML, CSS and JavaScript that works the
+            same across browsers and devices.</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h14a2 2 0 012 2v12a4 4 0 01-4 4H7zM7 21h10M9 7h6M9 11h6M9 15h4" />
+            </svg>
+          </div>
+          <h3 class="item-heading">Responsive & UI Design</h3>
+          <p class="item-desc">Every site I ship is designed mobile-first and tested across screen sizes, so it
+            looks right on any device.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Testimonial Section 
-  <section id="testimonial">
+  <!-- Skills Section -->
+  <section id="skills">
     <div class="container">
-      <h1 class="section-heading" data-outline="Testimonial">Testimonial</h1>
+      <h2 class="section-heading" data-outline="Skills">Skills</h2>
       <div class="all-items">
         <div class="item">
-          <div class="img">
-            <img src="" alt="">
-          </div>
-          <h3 class="testimonial-heading"></h3>
-          <p class="testimonial-sub-heading"></p>
-          <div class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-            </svg>
-          </div>
-          <p class="testimonial-desc"> </p>
+          <div class="icon"><i class="fab fa-html5"></i></div>
+          <h3 class="item-heading">HTML5</h3>
         </div>
         <div class="item">
-          <div class="img">
-            <img src="" alt="">
-          </div>
-          <h3 class="testimonial-heading"></h3>
-          <p class="testimonial-sub-heading"></p>
-          <div class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-            </svg>
-          </div>
-          <p class="testimonial-desc"></p>
+          <div class="icon"><i class="fab fa-css3-alt"></i></div>
+          <h3 class="item-heading">CSS3</h3>
         </div>
         <div class="item">
-          <div class="img">
-            <img src="" alt="">
-          </div>
-          <h3 class="testimonial-heading"></h3>
-          <p class="testimonial-sub-heading"></p>
-          <div class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-            </svg>
-          </div>
-          <p class="testimonial-desc"></p>
+          <div class="icon"><i class="fab fa-js"></i></div>
+          <h3 class="item-heading">JavaScript</h3>
+        </div>
+        <div class="item">
+          <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3 class="item-heading">Responsive Design</h3>
+        </div>
+        <div class="item">
+          <div class="icon"><i class="fab fa-git-alt"></i></div>
+          <h3 class="item-heading">Git &amp; GitHub</h3>
+        </div>
+        <div class="item">
+          <div class="icon"><i class="fab fa-figma"></i></div>
+          <h3 class="item-heading">Figma</h3>
+        </div>
+        <div class="item">
+          <div class="icon"><i class="fas fa-pen-nib"></i></div>
+          <h3 class="item-heading">UI/UX Design</h3>
+        </div>
+        <div class="item">
+          <div class="icon"><i class="fas fa-bolt"></i></div>
+          <h3 class="item-heading">Performance</h3>
         </div>
       </div>
     </div>
-  </section>-->
+  </section>
 
   <!-- stats Section -->
   <section id="stats">
@@ -167,6 +175,12 @@
           <h3 class="stats-sub-heading">Years experience</h3>
           <p>I have developed and delivered a variety of websites, focusing on creating high-performance, visually engaging, and user-friendly digital experiences.</p>
         </div>
+
+        <div class="item">
+          <h2 class="number">100%</h2>
+          <h3 class="stats-sub-heading">Client satisfaction</h3>
+          <p>Every project is built around clear communication and responsive design, so clients get a site that works exactly the way they need it to.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -181,25 +195,28 @@
       <div class="wrapper">
         <div class="left">
           <div class="card">
-            <div class="img">
-              <img src="https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGVyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
-            </div>
-            <p class="card-desc">I’m a freelance web designer and developer based in Nairobi. 
-              I love the Web platform
-              and I need to improve it for
-              everybody. What's more, I believe myself to be totally honored that I will assemble 
-              it professionally.</p>
-            <h3 class="card-name">IRENE Jr</h3>
-            <p class="card-sub-title">CEO of Me</p>
+            <div class="avatar">IN</div>
+            <p class="card-desc">I'm a freelance web designer and developer based in Nairobi.
+              I love the Web platform and care about building it well for
+              everybody. I take pride in doing this professionally, with attention
+              to detail on every project.</p>
+            <h3 class="card-name">Irene Njoki</h3>
+            <p class="card-sub-title">Freelance Web Designer & Developer</p>
           </div>
         </div>
         <div class="right">
-          <p class="subheading">Hi! This is IRENE</p>
+          <p class="subheading">Hi! This is Irene</p>
           <h2 class="slogan">Freelance Web Designer</h2>
           <p class="right-text">
+            I design and build websites and web applications for small businesses and agencies,
+            from insurance and rental management systems to restaurant and e-commerce sites.
+            My focus is on clean, responsive interfaces backed by fast, maintainable code.
+          </p>
+          <p class="right-text">
+            Based in Nairobi, Kenya, and available to work with clients anywhere.
           </p>
           <div class="buttons">
-            <a href="Black and White Simple Infographic Resume.pdf" class="primary-btn" view="">View Resume</a>
+            <a href="IRENE_WAWERU_CV (2).pdf" class="primary-btn" target="_blank" rel="noopener">View Resume</a>
             <a href="./contact.html" class="primary-btn outline">Hire Me</a>
           </div>
         </div>
@@ -221,11 +238,11 @@
           <div class="right">
             <h2 class="project-title">Insurance System</h2>
             <h3 class="project-sub-title">A comprehensive insurance management system for handling policies, claims, and customer interactions.</h3>
-            <p class="project-desc"></p>
+            <p class="project-desc">Policy management, claims tracking & customer dashboards.</p>
             <div class="buttons">
               <a href="https://demo.azilinsurance.co.ke/" class="primary-btn">Know More</a>
               <a href="https://demo.azilinsurance.co.ke/" class="primary-btn outline external-link"> <span>Preview</span>
-                <svg xmlns="Screenshot (500).png" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -243,12 +260,10 @@
           <div class="right">
             <h2 class="project-title">Restaurant</h2>
             <h3 class="project-sub-title">A sleek, interactive site that lets diners view menus, check opening hours, book reservations, and get directions — all from their phone or computer.</h3>
-            <p class="project-desc"></p>
+            <p class="project-desc">Menu browsing, table reservations & location info.</p>
             <div class="buttons">
               <a href="https://irenenjoki.github.io/RMWS/" class="primary-btn">Know More</a>
               <a href="https://irenenjoki.github.io/RMWS/" class="primary-btn outline external-link"> <span>Preview</span>
-                <a href="https://irenenjoki.github.io/RMWS/"></a>
-
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -266,12 +281,10 @@
           <div class="right">
             <h2 class="project-title">Rental management System</h2>
             <h3 class="project-sub-title">A streamlined platform for managing rental properties, tenants, and maintenance requests efficiently.</h3>
-            <p class="project-desc"></p>
+            <p class="project-desc">Tenant records, rent tracking & maintenance requests.</p>
             <div class="buttons">
               <a href="https://demo.hozi.co.ke/" class="primary-btn">Know More</a>
               <a href="https://demo.hozi.co.ke/" class="primary-btn outline external-link"> <span>Preview</span>
-                <a href="https://demo.hozi.co.ke/"></a>
-
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -291,7 +304,7 @@
             <h2 class="project-title">Movie web</h2>
             <h3 class="project-sub-title">A cinematic platform where users can stream trailers, check showtimes, read reviews, and stay up-to-date with the latest film releases and celebrity gossip.
             </h3>
-            <p class="project-desc"></p>
+            <p class="project-desc">Trailer streaming, showtimes & reviews.</p>
             <div class="buttons">
               <a href="https://irenenjoki.github.io/movieweb/" class="primary-btn">Know More</a>
               <a href="https://irenenjoki.github.io/movieweb/" class="primary-btn outline external-link"> <span>Preview</span>
@@ -308,14 +321,13 @@
         <div class="item">
           <div class="left">
             <div class="img">
-              <img src="Screenshot (503).png" alt="" height="80" width="100">
+              <img src="Screenshot (503).png" alt="">
             </div>
           </div>
           <div class="right">
             <h2 class="project-title">Family Tree</h2>
             <h3 class="project-sub-title">A visual representation of genealogical data, allowing users to explore and manage their family history and relationships.</h3>
-            </h3>
-            <p class="project-desc"></p>
+            <p class="project-desc">Interactive genealogy visualization & history archive.</p>
             <div class="buttons">
               <a href="https://demo.mbaringanga.co.ke/" class="primary-btn">Know More</a>
               <a href="https://demo.mbaringanga.co.ke/" class="primary-btn outline external-link"> <span>Preview</span>
@@ -333,17 +345,16 @@
         <div class="item">
           <div class="left">
             <div class="img">
-              <img src="https://s.alicdn.com/@sc04/kf/H339f5971e48342c9b8134697e567e49d2.jpg" alt="" width="70" height="80">
+              <img src="https://s.alicdn.com/@sc04/kf/H339f5971e48342c9b8134697e567e49d2.jpg" alt="">
             </div>
           </div>
           <div class="right">
-            <h2 class="project-title">jewellery-store</h2>
-            <h3 class="project-sub-title">
-            </h3>
-            <p class="project-desc"></p>
+            <h2 class="project-title">Jewellery Store</h2>
+            <h3 class="project-sub-title">An elegant online storefront showcasing a jewellery brand's collections, built for easy browsing on any device.</h3>
+            <p class="project-desc">Product catalog & responsive shopping experience.</p>
             <div class="buttons">
-              <a href=" https://irenenjoki.github.io/jewellery-store/index.html" class="primary-btn">Know More</a>
-              <a href=" https://irenenjoki.github.io/jewellery-store/index.html" class="primary-btn outline external-link"> <span>Preview</span>
+              <a href="https://irenenjoki.github.io/jewellery-store/index.html" class="primary-btn">Know More</a>
+              <a href="https://irenenjoki.github.io/jewellery-store/index.html" class="primary-btn outline external-link"> <span>Preview</span>
 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -362,30 +373,27 @@
     <div class="container">
       <footer>
         <div class="col-1">
-          <div class="logo"><a href="#">
-            <img src="https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGVyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
-
-            </a></div>
-          <p>A freelance web designer and developer from Nairbi Kenya . I generally make websites that have
+          <div class="logo"><a href="./index.html#hero">Irene<span>.</span></a></div>
+          <p>A freelance web designer and developer from Nairobi, Kenya. I generally make websites that have
             extraordinary
             designs and also have a good performance rate. </p>
         </div>
         <div class="col-2">
           <h2 class="column-heading">Important<br>Links</h2>
           <ul>
-            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#hero">Home</a></li>
             <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#projects">Projects</a></li>
+            <li><a href="./index.html#skills">Skills</a></li>
             <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./index.html#Project">Project</a></li>
-            <li><a href="./index.html#testimonial">Testimonial</a></li>
           </ul>
         </div>
         <div class="col-3">
           <h2 class="column-heading">Contact<br>Info</h2>
           <ul>
-            <li><a href="#">irenewaweru9@gmail.com</a></li>
-            <li><a href="#">+254711791575</a></li>
-            <li><a href="#">Nairbi Kenya</a></li>
+            <li><a href="mailto:irenewaweru9@gmail.com">irenewaweru9@gmail.com</a></li>
+            <li><a href="tel:+254711791575">+254711791575</a></li>
+            <li><a href="./contact.html">Nairobi, Kenya</a></li>
           </ul>
         </div>
         <div class="col-4">

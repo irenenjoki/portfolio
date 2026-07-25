@@ -33,21 +33,10 @@ navLinks.forEach( link => {
     navContent.classList.remove('show');
     document.body.style.overflow="initial";
   })
-
-    // JavaScript code to get the current date and year
-    var currentDate = new Date();
-    var year = currentDate.getFullYear();
-   
-
-    // Function to update the date and year
-    function updateDate() {
-      document.getElementById('current-year').textContent = "© IRENE. All right Reserved " + year;
-    }
-
-    // Update the date and year initially
-    updateDate();
-
-    // Update the date and year every second
-    setInterval(updateDate, 1000);
-
 })
+
+// Footer copyright year
+const yearEl = document.getElementById('current-year');
+if (yearEl) {
+  yearEl.textContent = "© IRENE. All rights reserved " + new Date().getFullYear();
+}
