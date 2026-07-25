@@ -301,9 +301,8 @@ p {
 
 /* Hero section Styles */
 #hero {
-	min-height: 100vh;
 	width: 100%;
-	padding-top: 10rem;
+	padding: 4rem 0 8rem 0;
 }
 #hero .container {
 	display: flex;
