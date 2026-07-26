@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:wght@700;800;900&family=Roboto+Mono:wght@400;500&display=swap');
 
 /* variables */
 :root {
@@ -329,7 +329,7 @@ p {
 }
 #hero .left .heading {
 	font-size: 6rem;
-	font-family: var(--font-display);
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 900;
 	overflow: hidden;
 }
